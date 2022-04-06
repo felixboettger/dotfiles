@@ -11,7 +11,7 @@ If you're not using the included zsh config file, or you are using a different
 shell, add an equivalent function to your config:
 
 `dtf () {
-  git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" "$@"
+  git --git-dir="$HOME/dotfiles" --work-tree="$HOME" "$@"
 }`
 
 ## Usage
